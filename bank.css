@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+  }
+
+  .main  {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  button {
+    background: rgb(0, 123, 255);
+    color: white;
+    border: 1.5px solid black;
+  }
+
+  .btn2{
+    display: inline-block;
+    width: 30%;
+    margin-left:10px;
+    margin-top: -2px;
+
+  }
+
+  #register-section{
+    display: none;
+  }
+
+  #banking-section {
+    display: none;
+  }

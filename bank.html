@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bank.css">
+  <title>Tecno Banking App</title>
+</head>
+<body>
+  <div class="main">
+    <h1>Tecno Banking App</h1>
+    <div id="reg-log">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="in-password" placeholder="Password">
+      <button id="login-btn">Login</button>
+      <button id="create">Create New Account</button>
+    </div>
 
+    <div id="register-section" style="display:none;">
+      <h2>Register</h2>
+      <input type="text" id="reg-username" placeholder="Username">
+      <input type="password" id="reg-password" placeholder="Password">
+      <button id="register-btn">Register</button>
+    </div>
+
+    <div id="banking-section" style="display:none;">
+      <h2>Welcome, <span id="user-name"></span></h2>
+      <p>Balance: $<span id="balance">0</span></p>
+      <input type="number" id="amount" placeholder="Amount">
+      <button id="deposit" class="btn2">Deposit</button>
+      <button id="transfer" class="btn2">Transfer</button>
+      <button id="withdraw" class="btn2">Withdraw</button>
+      <h3>Transaction History</h3>
+      <ul id="transactions"></ul>
+      <button id="logout">Logout</button>
+    </div>
+  </div>
+
+  <script src="bank.js"></script>
+</body>
+</html>
